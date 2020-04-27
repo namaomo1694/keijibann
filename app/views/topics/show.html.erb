@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>新規投稿:</strong>
+  <%= @topic.title %>
+</p>
+
+<%= link_to '編集する', edit_topic_path(@topic) %> |
+<%= link_to '投稿一覧へ戻る', topics_path %>

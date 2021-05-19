@@ -11,7 +11,7 @@ gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
 gem 'sqlite3', group: :development
 # 本番ではpostgressを使用する
 gem 'pg', group: :production
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
